@@ -1,3 +1,7 @@
+[![CodeQL Advanced](https://github.com/japoch/ai-models/actions/workflows/codeql.yml/badge.svg)](https://github.com/japoch/ai-models/actions/workflows/codeql.yml)
+[![Codacy Security Scan](https://github.com/japoch/ai-models/actions/workflows/codacy.yml/badge.svg)](https://github.com/japoch/ai-models/actions/workflows/codacy.yml)
+[![Automatic Dependency Submission](https://github.com/japoch/ai-models/actions/workflows/dependency-graph/auto-submission/badge.svg)](https://github.com/japoch/ai-models/actions/workflows/dependency-graph/auto-submission)
+
 # AI Models
 Evaluating GitHub AI models.
 
