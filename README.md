@@ -1,2 +1,21 @@
-# ai-models
+# AI Models
 Evaluating GitHub AI models.
+
+## Running locally
+- Install [AI Toolkit for Visual Studion Code](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.windows-ai-studio)
+- Choose a model with low hardware requirements, e.g. [Phi 4 Mini](https://huggingface.co/microsoft/Phi-4-mini-instruct-onnx)
+- Test your model in the playground and create sample code
+
+## Running remotely
+Set your access token with export GITHUB_TOKEN="<your-github-token-goes-here>".
+
+GitHub with Free access with [simple rate limits](https://docs.github.com/github-models/prototyping-with-ai-models#rate-limits). Enable billing for higher limits with paid models usage.
+Create Personal Access Token with models:read permissions.
+
+## ONNX
+The [Open Neural Network Exchange (ONNX)](https://onnx.ai/) is an open-source artificial intelligence ecosystem of technology companies and research organizations that establish open standards for representing machine learning algorithms and software tools to promote innovation and collaboration in the AI sector. ONNX is available on GitHub.
+
+## SDKs
+Azure AI Inference SDK [documentation](https://aka.ms/azsdk/azure-ai-inference/python/reference) and [samples](https://aka.ms/azsdk/azure-ai-inference/python/samples).
+
+OpenAI SDK [documentation](https://platform.openai.com/docs/overview?lang=python) and [samples](https://cookbook.openai.com/).
